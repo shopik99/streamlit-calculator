@@ -14,14 +14,14 @@ b = st.number_input("Екінші санды енгізіңіз")
 
 operation = st.selectbox(
     "Амал таңдаңыз",
-    ["Қосу (+)", "Азайту (-)", "Көбейту (*)", "Бөлу (/)"]
+    ["Қосуу (+)", "Азайту (-)", "Көбейту (*)", "Бөлу (/)"]
 )
 
 if st.button("Есептеу"):
 
     result = None
 
-    if operation == "Қосhhhу (+)":
+    if operation == "Қосуу (+)":
         result = a + b
 
     elif operation == "Азайту (-)":
