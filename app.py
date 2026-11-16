@@ -18,7 +18,10 @@ operation = st.selectbox(
 )
 
 if st.button("Есептеу"):
-    if operation == "Қосвввdddу (+)":
+
+    result = None
+
+    if operation == "Қосу (+)":
         result = a + b
 
     elif operation == "Азайту (-)":
@@ -32,7 +35,6 @@ if st.button("Есептеу"):
             result = a / b
         else:
             st.error("Нөлге бөлуге болмайды!")
-            result = None
 
     if result is not None:
         st.success(f"Нәтиже: {result}")
