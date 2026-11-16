@@ -18,7 +18,7 @@ operation = st.selectbox(
 )
 
 if st.button("Есептеу"):
-    if operation == "Қосу (+)":
+    if operation == "Қосdddу (+)":
         result = a + b
 
     elif operation == "Азайту (-)":
