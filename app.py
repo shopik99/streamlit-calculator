@@ -21,7 +21,7 @@ if st.button("Есептеу"):
 
     result = None
 
-    if operation == "Қосу (+)":
+    if operation == "Қосhhhу (+)":
         result = a + b
 
     elif operation == "Азайту (-)":
